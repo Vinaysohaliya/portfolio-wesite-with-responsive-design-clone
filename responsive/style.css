@@ -1,0 +1,170 @@
+   .scroll{
+       display: none; 
+   }
+   
+   * {
+        margin: 0;
+        padding: 0;
+        background-color: #111827;
+        color: aliceblue;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    ul{
+        display: flex;
+        gap: 30px;
+        list-style: none;
+        justify-content: flex-end;
+        align-items: center;
+        /* border: 3px solid seashell; */
+        height: 30px;
+        margin: 0 20px;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .computer{
+        width: 200px;
+        height: 200px;
+        margin-left: 30px;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .photos{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .pro1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .pro2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    
+    .pro3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .pro4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+    
+    }
+    .photoline1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .photoline2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    body{
+        height: 100vh;
+        width: 100vw;
+      
+    }
+    
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .link{
+        width: 30px;
+        height: 30px;
+        margin: 0 10px;
+    }
+    
+    .contact{
+        margin: 20px;
+    }
+    
+    .project{
+        margin: 20px;
+    
+    }
+    
+
+@media screen and (max-width:576px) {
+    nav{
+        display: none;
+    }
+    .scroll{
+        display: block;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .hiimg{
+        margin: 10px;
+    }
+    .hitext{
+        margin: 10px;
+
+    }
+    .name{
+        margin: 10px;
+
+    }
+    .work{
+        margin: 10px;
+        color: gold;
+
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .photoline1{
+        display: flex;
+        flex-direction: column;
+    }
+    .photoline2{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
